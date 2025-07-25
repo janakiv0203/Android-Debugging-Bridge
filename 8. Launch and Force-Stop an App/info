@@ -1,0 +1,15 @@
+The commands used are:
+> adb shell monkey -p com.package.name -c android.intent.category.LAUNCHER 1
+  adb shell: Executes a command inside the Android device shell.
+  monkey: A tool that sends simulated user events (touches, gestures, app launches) to an app.
+  -p com.package.name: Specifies the package name of the app targeted.
+  -c android.intent.category.LAUNCHER: Simulates launching the app as if from the launcher (home screen).
+  1: Send only one event (just launch in this case).
+It launches the app with the package name com.package.name in the same way as tapping its icon on the home screen.
+
+> adb shell am force-stop com.package.name
+  adb shell: Executes a command inside the Android device.
+  am: stands for Activity Manager which is used for managing app components.
+  force-stop: Tells Android to completely stop the mentioned app.
+  com.package.name: The package name of the app to stop.
+It forcefully stops the app, just like force-stopping it from Settings. It also clears any background services or processes related to the app.
