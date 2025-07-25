@@ -1,0 +1,2 @@
+The command used to push a file: adb push <path_of_the_file>
+This transfers a file from the PC to the phone and is useful for testing or sending data to the device.
