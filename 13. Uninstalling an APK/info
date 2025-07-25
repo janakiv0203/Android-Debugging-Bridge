@@ -1,0 +1,2 @@
+The command used is : adb uninstall com.package.name
+It uninstalls the specified app from the android device using the specified package name.
