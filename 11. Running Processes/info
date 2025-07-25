@@ -1,0 +1,6 @@
+The commands used for viewing running processes and their memory or CPU usage are :
+
+> adb shell ps : This shows a static list of processes without CPU or memory usage.
+> adb shell top : This shows a real-time list of running processes with CPU and memory usage.
+> adb shell dumpsys meminfo : This gives the detailed memory usage of all processes.
+> adb shell dumpsys cpuinfo : This shows the CPU usage of all processes.
