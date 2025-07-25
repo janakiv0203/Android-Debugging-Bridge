@@ -1,0 +1,2 @@
+The command used for pulling a file from the device: adb pull <path_of_the_file>
+This copies a file from the device to the PC and is often used to retrieve logs or app files.
