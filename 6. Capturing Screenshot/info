@@ -1,0 +1,5 @@
+The commandS used for taking screenshot : 
+  > adb shell screencap <filepath>
+    adb pull <filepath> : Runs the screencap command on the device and saves the screenshot in the file path provided.
+  > adb shell screencap -p > screen.png : -p: outputs in PNG format to stdout and > saves it as screen.png on the PC.
+
