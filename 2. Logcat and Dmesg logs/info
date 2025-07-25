@@ -1,0 +1,17 @@
+adb logcat -d > logcat.txt : It captures the current logs from the Android device (via ADB) and saves them into a file named logcat.txt on the PC.
+
+Explanation:
+  adb: Android Debug Bridge, a tool to communicate with Android devices.
+  logcat: A command that dumps the log messages from the device.
+  -d: This option tells logcat to dump the current logs and exit (instead of continuously printing them).
+  >: Redirects the output.
+  logcat.txt: The name of the file where the output (logs) will be saved.
+  
+adb shell dmesg > dmesg.txt : It captures the kernel logs from the Android device and saves them to a file called dmesg.txt on the PC. It requires root access for complete dmesg output.
+
+Explanation:
+  adb: Android Debug Bridge — lets you communicate with a connected Android device or emulator.
+  shell: Runs a command inside the Android device's shell (like a Linux terminal inside your phone).
+  dmesg: Prints kernel ring buffer messages — low-level system logs from the Linux kernel (boot info, hardware, drivers, etc.).
+  >: Redirects output from your terminal into a file.
+  dmesg.txt: The file that will receive the kernel log output.
