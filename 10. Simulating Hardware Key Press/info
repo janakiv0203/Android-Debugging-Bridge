@@ -1,0 +1,7 @@
+The command used for simulating a hardware key press is : adb shell input keyevent KEYCODE_EVENT
+Successful attempts : 
+> adb shell input keyevent KEYCODE_HOME
+> adb shell input keyevent KEYCODE_BACK
+> adb shell input keyevent KEYCODE_CAMERA
+> adb shell input keyevent KEYCODE_CALENDER
+> adb shell input keyevent KEYCODE_SETTINGS
