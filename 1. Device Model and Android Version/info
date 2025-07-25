@@ -1,0 +1,3 @@
+The following commands were used to fetch device model and the android version of the connected device:
+> adb shell getprop ro.product.model
+> adb shell getprop ro.build.version.release
