@@ -1,0 +1,6 @@
+adb logcat -d *:E > error_log.txt : It is used to filter errors from the current log buffer.
+
+Explanation:
+  -d dumps the current log buffer and exits immediately (no live logging).
+  *:E filters to only error logs.
+  > error_log.txt saves the output.
