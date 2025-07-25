@@ -1,0 +1,5 @@
+The commands used for listing installed packages are :
+  adb shell pm list packages
+  adb shell pm list packages > packages.txt
+
+It lists all apps installed on the device by their package names.
