@@ -1,0 +1,2 @@
+The command used is : adb install "path/to/your_app.apk"
+It installs an APK file from the PC onto the connected Android device.
