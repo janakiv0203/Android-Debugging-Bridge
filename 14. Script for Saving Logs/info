@@ -1,0 +1,2 @@
+android_logs.bat includes the script for saving the Android device information as timestamped text files.
+The text files created include : device model, Android version, logcat logs, installed packages and running processes.
